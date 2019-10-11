@@ -12,3 +12,11 @@ function submit(e) {
         addTask(input.value);
     input.value = '';
 }
+// add tasks
+function addTask(task) {
+    let ul = document.querySelector('ul');
+    let li = document.createElement('li');
+    li.innerHTML = `<span class="delete">x</span><input type="checkbox"><label>${task}</label>`;
+    ul.appendChild(li);
+    document.querySelector('.tasksBoard').style.display = 'block';
+}
