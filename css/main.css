@@ -1,5 +1,5 @@
 html {
-    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%) fixed;
     height: auto;
     background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
